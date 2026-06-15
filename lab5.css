@@ -1,0 +1,81 @@
+/* ==========================================
+   EXPERIMENT 5: CSS SELECTOR TYPES 
+   ========================================== */
+
+/* (a) Element Selector */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+h2 {
+    color: #16a085;
+}
+p {
+    color: #34495e;
+}
+
+/* (b) Class Selector */
+.highlight {
+    background-color: #f1c40f;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* (c) ID Selector */
+#main-title {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* (d) Grouping Selector */
+h2, p, li {
+    border-left: 3px solid #3498db;
+    padding-left: 10px;
+}
+
+/* (e) Descendant Selector */
+div p {
+    color: #8e44ad;
+    font-style: italic;
+}
+
+/* (f) Child Selector */
+div > ul > li {
+    color: #d35400;
+    font-weight: bold;
+}
+
+/* (g) Attribute Selector */
+input[type="text"] {
+    border: 2px solid #3498db;
+    background-color: #e8f4f8;
+    padding: 5px;
+}
+input[type="password"] {
+    border: 2px solid #e74c3c;
+    background-color: #fadbd8;
+    padding: 5px;
+}
+
+/* (h) Pseudo-classes */
+a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+ul li:first-child {
+    background-color: #d5f5e3;
+}
+ul li:last-child {
+    background-color: #fadbd8;
+}
+
+/* (i) Pseudo-elements */
+h2::before {
+    content: "📌 ";
+}
+.intro-text::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #2980b9;
+}
