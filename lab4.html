@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 4: Introduction to CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .internal-title {
+            color: #d35400;
+            text-transform: uppercase;
+        }
+        .internal-text {
+            background-color: #fdebd0;
+            padding: 10px;
+            border-left: 5px solid #d35400;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Experiment 4: Introduction to CSS</h1>
+    <hr>
+
+    <h2>1. Inline CSS Section</h2>
+    <h3 style="color: blue; font-size: 20px;">This Heading is Styled via Inline CSS</h3>
+    <p style="color: darkgreen; font-weight: bold;">This paragraph uses inline styles directly within the tag to alter text color and thickness.</p>
+
+    <hr>
+
+    <h2>2. Internal CSS Section</h2>
+    <h3 class="internal-title">This Heading is Styled via Internal CSS</h3>
+    <p class="internal-text">This paragraph uses an internal class styled within the head area block to create a distinct layout box.</p>
+
+    <hr>
+
+    <h2>3. External CSS Section</h2>
+    <h3 class="external-title">This Heading is Styled via External CSS</h3>
+    <p class="external-text">This section pulls its rules from the independent style.css file, controlling global background alignment and typography.</p>
+
+    <hr>
+
+    <p><a href="lab2.html">Return to Lab Manual Homepage</a></p>
+
+</body>
+</html>

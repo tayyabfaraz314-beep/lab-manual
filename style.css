@@ -1,0 +1,22 @@
+/* External CSS Styles */
+
+/* Styles the entire page background and font */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Styles any heading tagged with external-title class */
+.external-title {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* Styles any paragraph tagged with external-text class */
+.external-text {
+    font-style: italic;
+    color: #555555;
+    line-height: 1.6;
+}
